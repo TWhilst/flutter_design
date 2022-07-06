@@ -12,8 +12,8 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       // In Flutter, the AppBar’s layout mainly comprises three components: leading, title, and actions. leading is placed at the leftmost position of the AppBar; title and actions appear to its right.
       appBar: buildAppBar(),
-      body: Body(),
-      bottomNavigationBar: BottomNavBar(),
+      body: const Body(),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 
